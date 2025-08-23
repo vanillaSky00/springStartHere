@@ -1,4 +1,4 @@
-package com.vanillacare.ch10_springstarthere.payment;
+package com.vanillacare.springstarthere.ch10_payment;
 
 import org.springframework.stereotype.Component;
 

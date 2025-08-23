@@ -1,4 +1,4 @@
-package com.vanillacare.ch10_springstarthere.payment;
+package com.vanillacare.springstarthere.ch10_payment;
 
 public class NotEnoughMoneyException extends RuntimeException{
     public NotEnoughMoneyException() {

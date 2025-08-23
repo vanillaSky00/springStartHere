@@ -1,4 +1,4 @@
-package com.vanillacare.ch10_springstarthere;
+package com.vanillacare.springstarthere;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -1,11 +1,10 @@
-package com.vanillacare.ch10_springstarthere.payment;
+package com.vanillacare.springstarthere.ch10_payment;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
 
 //not recommend in production code because it is coupled with the exception
 //@RestController

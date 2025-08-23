@@ -1,14 +1,14 @@
-package com.vanillacare.ch10_springstarthere;
+package com.vanillacare.springstarthere;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Ch10SpringStartHereApplication {
+public class SpringStartHereApplication {
 
     public static void main(String[] args) {
 
-        SpringApplication.run(Ch10SpringStartHereApplication.class, args);
+        SpringApplication.run(SpringStartHereApplication.class, args);
     }
 
 }
