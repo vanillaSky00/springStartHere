@@ -5,6 +5,7 @@
 -- ); outdated and is for sql
 
 
+-- for ch12 h2
 DROP TABLE IF EXISTS purchase;
 CREATE TABLE IF NOT EXISTS purchase (
     id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
@@ -12,4 +13,9 @@ CREATE TABLE IF NOT EXISTS purchase (
     price DOUBLE NOT NULL
 );
 
-
+-- for ch13 h2
+CREATE TABLE IF NOT EXISTS account (
+    id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+    name VARCHAR(50) NOT NULL,
+    amount DOUBLE NOT NULL
+);
